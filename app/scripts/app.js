@@ -27,8 +27,7 @@ angular
       })
       .state('about', {
         url: '/about',
-        controller: 'aboutCtrl',
-        templateUrl: 'views/about.html'
+        component: 'aboutComponent'
       });
 
     $locationProvider.html5Mode(true);
